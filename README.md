@@ -1,1 +1,1 @@
-# SIngle-cell Network Using Mutual information (SINUM)
+## SIngle-cell Network Using Mutual information (SINUM)
