@@ -2,7 +2,7 @@
 ### Basic usage
 #### sinum.py
 ```
-$ python code/sinum.py
+$ python code/sinum.py -f example/dataset/ChuType_exampleGEM_log2.txt -b 0.2 -z 0.0 -o ./example -n ChuType_example
 ```
 Argument | Variable | Description | Default value
 ------------ | ------------- | ------------- | -------------
