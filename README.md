@@ -8,7 +8,7 @@ $ python code/sinum.py -f example/dataset/ChuType_exampleGEM_log2.txt -b 0.2 -z 
 ```
 Argument | Variable | Description | Default value
 ------------ | ------------- | ------------- | -------------
--f | GEM_file | gene expression matrix (GEM) file | example/dataset/ChuType_exampleGEM_log2.txt
+-f | GEM_file | path to gene expression matrix (GEM) file | example/dataset/ChuType_exampleGEM_log2.txt
 -b | bs | box size | 0.2
 -z | cf | z-score threshold | 0.0
 -o | outdir | output directory | ./example
