@@ -100,10 +100,10 @@ def sinumnet(data, boxsize, JobStart, JobEnd, savedir):
     
     freq = np.zeros((binsNum,binsNum))
     
-    genePairnum=math.comb(geneTot,2)
+    genePairnum = math.comb(geneTot,2)
     
     for cell_k in range(JobStart-1, JobEnd):
-        MI_matrix = compute_mutual_info_matrix(cell_k, Xt, EntropyX, freq, data, Xlow, Xupp, cellTot, geneTot, genePairnum)
+        MI_matrix = compute_mutual_info_matrix(cell_k, Xt, EntropyX, freq, data, Xlow, Xupp, cellTot, geneTot)
         MI_matrix = np.round(MI_matrix, 6)
         sparse_matrix = sparse.csc_matrix(MI_matrix)
         savepath = os.path.join(savedir, f'sinum_c{cell_k+1}.MI.npz')
